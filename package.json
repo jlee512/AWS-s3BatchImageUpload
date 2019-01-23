@@ -1,0 +1,18 @@
+{
+  "name": "s3upload",
+  "version": "1.0.0",
+  "description": "This package is a cli tool which uploads all jpegs within a folder to a specified AWS S3 bucket. Uploads are batched into directories using an initial index which is appended to a template directory name",
+  "main": "cli.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "s3Imageupload": "./cli.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.392.0",
+    "minimist": "^1.2.0"
+  }
+}
