@@ -9,7 +9,7 @@ var AWS = require('aws-sdk');
 var argv = require('minimist')(process.argv.slice(2));
 
 if (argv.h) {
-  console.log('Use: s3upload [-h] [--b **s3bucketname** required] [--i **initial-file-index** rqeuired] [--d **s3dirPrefix** required] [--s **batch-size** required]');
+  console.log('Use: s3upload [-h] [--b **s3bucketname** required] [--i **initial-file-index** required] [--d **s3dirPrefix** required] [--s **batch-size** required]');
 }
 else {
   //----------------------------------------------
